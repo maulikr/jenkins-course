@@ -1,4 +1,4 @@
-job('NodeJS example') {
+job('NodeJS example (Using Git and Seed Project)') {
     scm {
         git('git://github.com/wardviaene/docker-demo.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('DSL User')
